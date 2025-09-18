@@ -1,9 +1,9 @@
-import Header from "./Header";
+
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className=" flex flex-row items-center justify-around p-5">
+      <div className=" flex flex-row items-center justify-around p-5 mt-25">
         <div>
           <h1 className="text-5xl font-bold mb-4">
             Hi, I’m <br />
