@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-around dark:bg-gray-800 dark:text-white p-6 mt-24 transition-colors duration-300">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-around dark:bg-gray-800 dark:text-white p-6 mt-16 md:mt-24 transition-colors duration-300">
       {/* Text Section */}
       <div className="md:max-w-md text-center md:text-left">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">
@@ -13,6 +13,8 @@ const Home = () => {
         <p className="max-w-xl mb-6 text-gray-900 dark:text-gray-200">
           I build scalable and responsive web applications with the MERN stack.
         </p>
+
+        {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a
             href="https://drive.google.com/file/d/1_WxpQ0bu--_sNQnXlTs8GeEBFheYpcw6/view?usp=sharing"
@@ -35,7 +37,7 @@ const Home = () => {
         <img
           src="https://i.pinimg.com/1200x/0d/98/b2/0d98b2916254548f2c79a57eb8768969.jpg"
           alt="Atul Tiwari"
-          className="w-64 sm:w-80 md:w-[500px] h-64 sm:h-80 md:h-[600px] rounded-full object-cover mx-auto transition-all duration-300"
+          className="w-48 sm:w-64 md:w-[500px] h-48 sm:h-80 md:h-[600px] rounded-full object-cover mx-auto transition-all duration-300"
         />
       </div>
     </div>
