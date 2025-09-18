@@ -49,8 +49,8 @@ const skillIcons = {
 
 const Skills = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-10 text-gray-800">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">
+    <div className="min-h-screen bg-gray-100 p-10 dark:bg-gray-700 dark:text-white">
+      <h2 className="text-4xl font-bold text-center  mb-10">
         Skills
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-lg gap-10  max-w-6xl mx-auto">

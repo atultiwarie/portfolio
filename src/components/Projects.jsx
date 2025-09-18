@@ -35,8 +35,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="min-h-screen py-20 px-6 bg-gray-200">
-      <h2 className="text-4xl font-bold text-center mb-12 text-indigo-600">
+    <section className="min-h-screen py-20 px-6 bg-gray-200 dark:bg-gray-800 dark:text-white">
+      <h2 className="text-4xl font-bold text-center mb-12 text-indigo-600 dark:text-white">
         Projects
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

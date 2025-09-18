@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import { Element } from "react-scroll";
 
 import Home from "./components/Home";
-import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
@@ -15,7 +14,6 @@ function App() {
     <div className="min-h-screen">
       <Header />
       <Routes>
-        {/* Single-page app only */}
         <Route
           path="/"
           element={
@@ -23,9 +21,6 @@ function App() {
               <Element name="home">
                 <Home />
               </Element>
-              {/* <Element name="about">
-                <About />
-              </Element> */}
               <Element name="skills">
                 <Skills />
               </Element>
