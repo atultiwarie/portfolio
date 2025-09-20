@@ -35,7 +35,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="min-h-screen py-20 px-6 bg-gray-200 dark:bg-gray-800 dark:text-white">
+    <section className="min-h-screen py-20 px-6 bg-gray-200 dark:bg-gray-800 ">
       <h2 className="text-4xl font-bold text-center mb-12 text-indigo-600 dark:text-white">
         Projects
       </h2>
