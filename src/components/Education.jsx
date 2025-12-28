@@ -30,12 +30,12 @@ const Education = () => {
 
       <div className="relative max-w-2xl mx-auto">
         {/* Timeline vertical line */}
-        <div className="absolute left-5 top-0 h-full border-l-4 border-blue-500 dark:border-white"></div>
+        <div className="absolute left-5 top-0 h-full border-l-4 border-blue-500 dark:border-blue-500"></div>
 
         {timeline.map((item, index) => (
           <div key={index} className="relative pl-16 mb-12">
             {/* Timeline dot */}
-            <div className="absolute left-0 top-2 w-10 h-10 bg-blue-500 dark:bg-white rounded-full border-4 border-white dark:border-gray-900 shadow-md"></div>
+            <div className="absolute left-0 top-2 w-10 h-10 bg-blue-500 dark:bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-md"></div>
 
             {/* Card */}
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transition-colors duration-300">
